@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you", "Is anyone there?", "Good day"],
+      "responses": ["Hello! Welcome to Fast प्रवेश. I will be your virtual assistant today, how can I assist you?", "Hi there! Welcome to Fast प्रवेश. I'm here to help you book your museum tickets online. What would you like to know?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Thanks, bye", "Exit"],
+      "responses": ["Goodbye! Thank you for using our Online Museum Ticket Booking System.", "Have a great day! Feel free to return if you need any more assistance with online booking."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Opening hours", "Closing time"],
+      "responses": ["The museum has a parking lot available for visitors. On-site parking is 50rupees for the first hour and will increment 10rupees for each hour after that, subject to availability. Parking will be free for educational visits."]
+    },
+    {
+      "tag": "ticket_prices",
+      "patterns": ["How much are tickets?", "Ticket cost", "Admission fee", "Price of entry"],
+      "responses": ["Our standard adult ticket is Rs.200/person, children (ages 5-12) are Rs.150/individual, and seniors (65+) are alloted a discount of 50%. Children under 5 enter for free. These prices are the same for both online and offline bookings."]
+    },
+    {
+      "tag": "book_ticket",
+      "patterns": ["I want to book a ticket", "How can I purchase tickets?", "Reserve a spot"],
+      "responses": ["Certainly! I'd be happy to help you book a ticket online. Please provide the following information: your name, mobile number, the number of tickets, and your preferred date and time of visit. For offline booking, please refer to the in-museum ticket vending machines according to your requirement."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay by credit card?", "Do you take cash?"],
+      "responses": ["For online bookings, we accept UPI and credit/debit cards. Cash payments are not available for online transactions. For offline booking, please refer to the in-museum ticket vending machines according to your requirement."]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": ["Can I cancel my booking?", "Refund policy", "Change reservation date"],
+      "responses": ["Yes, you can cancel or modify your online booking up to 24 hours before your scheduled visit. Please log in to your account or provide your booking ID for any changes or cancellations. Refunds will be processed through the original payment gateway with a liable deduction of 10% of the total booking amount (within 2 to 4 working days)."]
+    },    
+    {
+      "tag": "accessibility",
+      "patterns": ["Is the museum wheelchair accessible?", "Accessibility options", "Facilities for disabled visitors"],
+      "responses": ["Yes, the museum is fully wheelchair accessible. When booking online, you can indicate any specific accessibility requirements with a nominal fee of 50rupees."]
+    },
+    {
+      "tag": "parking",
+      "patterns": ["Is there parking available?", "Where can I park?", "Parking facilities"],
+      "responses": ["The museum has a parking lot available for visitors. On-site parking is 50rupees for the first hour and will increment 10rupees for each hour after that, subject to availability. Parking will be free for educational visits."]
+    },
+    {
+      "tag": "ticket_id",
+      "patterns": ["What's my ticket ID?", "Booking reference", "Reservation number"],
+      "responses": ["Your ticket ID is a unique number generated when you complete your online booking. You can find it in your message box or SMS box on your device. Please keep this ID handy for quick check-in at the museum. In case your ID is not found, give your registered mobile number and your SMS will be resent to you."]
+    },    
+    {
+      "tag": "offline_booking",
+      "patterns": ["Can I buy tickets at the museum?", "Offline ticket purchase", "Buy tickets in person", "Ticket vending machines"],
+      "responses": ["While we encourage online booking for a smoother experience, offline booking is available. For offline booking, please refer to the in-museum ticket vending machines according to your requirement. These machines are located across the museum and accept both UPI and card payments."]
+    }
+  ]
+}
